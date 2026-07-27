@@ -1,0 +1,54 @@
+# ==========================
+# Virtual Environment
+# ==========================
+.venv/
+
+# ==========================
+# Python
+# ==========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ==========================
+# Environment Variables
+# ==========================
+.env
+
+# ==========================
+# IDE Settings
+# ==========================
+.vscode/
+.idea/
+
+# ==========================
+# Operating System Files
+# ==========================
+Thumbs.db
+.DS_Store
+
+# ==========================
+# Logs
+# ==========================
+*.log
+
+# ==========================
+# Datasets
+# (Generated during later milestones)
+# ==========================
+data/raw/
+data/processed/
+
+# ==========================
+# Trained Models
+# ==========================
+models/*.pt
+models/*.pth
+models/*.onnx
+
+# ==========================
+# Testing & Coverage
+# ==========================
+.pytest_cache/
+.coverage
+htmlcov/
